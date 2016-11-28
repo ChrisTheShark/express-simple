@@ -1,0 +1,17 @@
+{
+  "name": "express-simple",
+  "version": "0.0.1",
+  "description": "Simple Express web application.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Chris Dyer",
+  "license": "MIT",
+  "dependencies": {
+    "@chris.dyer/tape": "^0.0.3",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0"
+  }
+}
