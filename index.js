@@ -1,5 +1,5 @@
 'use strict';
-const Tape = require('@chris.dyer/tape'),
+const Tape = require('express-tape'),
     manifest = require('./manifest');
 
 Tape.compose(manifest, {

@@ -2,14 +2,6 @@
 # yarn lockfile v1
 
 
-"@chris.dyer/tape@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@chris.dyer/tape/-/tape-0.0.3.tgz#80a3dd588c8cc7c685ac1c8471cd2fac5ded8e00"
-  dependencies:
-    async "^2.1.4"
-    express "^4.14.0"
-    joi "^10.0.1"
-
 accepts@~1.3.3:
   version "1.3.3"
   resolved "https://registry.yarnpkg.com/accepts/-/accepts-1.3.3.tgz#c3ca7434938648c3e0d9c1e328dd68b622c284ca"
@@ -95,6 +87,14 @@ escape-html@~1.0.3:
 etag@~1.7.0:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/etag/-/etag-1.7.0.tgz#03d30b5f67dd6e632d2945d30d6652731a34d5d8"
+
+express-tape@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/express-tape/-/express-tape-0.0.3.tgz#1f426205b3ea666a4da0bc57fff7f9b954243080"
+  dependencies:
+    async "^2.1.4"
+    express "^4.14.0"
+    joi "^10.0.1"
 
 express@^4.14.0:
   version "4.14.0"
