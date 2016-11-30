@@ -3,7 +3,7 @@ const Tape = require('express-tape'),
     manifest = require('./manifest');
 
 Tape.compose(manifest, {
-    relativeTo: __dirname + '/lib/routes'
+    relativeTo: __dirname
 }, function(error, app) {
     app.listen(3000, function(error) {
         if (error) {

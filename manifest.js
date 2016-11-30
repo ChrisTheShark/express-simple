@@ -26,7 +26,7 @@ manifest.application.middleware = [{
 }];
 
 manifest.application.routers = [{
-    router: './simpleRoute',
+    router: './lib/routes/simpleRoute',
     middleware: [{
         customFunction: function(req, res, next) {
             next();
