@@ -33,7 +33,7 @@ manifest.application.routers = [{
         }
     }],
     options: {
-        path: '/api'
+        path: '/greeting'
     }
 }];
 
