@@ -173,9 +173,9 @@ etag@~1.7.0:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/etag/-/etag-1.7.0.tgz#03d30b5f67dd6e632d2945d30d6652731a34d5d8"
 
-express-tape@^0.0.5:
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/express-tape/-/express-tape-0.0.5.tgz#237c2940f3a62caf6d4cb104595684e0d1a34b42"
+express-tape@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/express-tape/-/express-tape-0.0.6.tgz#54569f5207b9bc5f26c12c1da979944cc50454aa"
   dependencies:
     async "^2.1.4"
     express "^4.14.0"

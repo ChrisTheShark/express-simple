@@ -25,6 +25,22 @@ manifest.application.middleware = [{
     args: ['combined']
 }];
 
+manifest.application.routes = [{
+    method: 'get',
+    path: '/api/awesome',
+    handlers: [
+        function(req, res, next) {
+            console.log('Your about to be praised.');
+            next();
+        },
+        function(req, res) {
+            res.json({
+                success: 'Super!'
+            });
+        }
+    ]
+}]
+
 manifest.application.routers = [{
     router: './lib/routes/simpleRoute',
     middleware: [{
