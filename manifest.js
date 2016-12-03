@@ -42,7 +42,7 @@ manifest.application.routes = [{
 }]
 
 manifest.application.routers = [{
-    router: './lib/routes/simpleRoute',
+    router: './lib/routes/greetingRoute',
     middleware: [{
         customFunction: function(req, res, next) {
             next();

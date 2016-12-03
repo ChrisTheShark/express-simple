@@ -4,7 +4,8 @@
   "description": "Simple Express web application.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "./node_modules/.bin/_mocha"
   },
   "author": "Chris Dyer",
   "license": "MIT",
@@ -14,5 +15,10 @@
     "express-tape": "^0.0.6",
     "morgan": "^1.7.0",
     "pug": "^2.0.0-beta6"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "supertest": "^2.0.1"
   }
 }
